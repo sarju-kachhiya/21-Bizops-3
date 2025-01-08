@@ -1,0 +1,93 @@
+.custom-form-style-1 .form-control {
+    height: calc(1.8em + 1.75rem + 2px);
+    padding: 15.6px 20px;
+    padding: .975rem 1.25rem;
+    background: var(--grey-100);
+    border-color: var(--grey-100);
+    line-height: 1.5!important
+}
+
+.custom-form-style-1 .form-control:focus {
+    border-color: var(--grey-500)
+}
+
+.custom-form-style-1 .form-control::-webkit-input-placeholder {
+    color: #a9a9a9
+}
+
+.custom-form-style-1 .form-control::-moz-placeholder {
+    color: #a9a9a9
+}
+
+.custom-form-style-1 .form-control:-ms-input-placeholder {
+    color: #a9a9a9
+}
+
+.custom-form-style-1 select {
+    color: #495057
+}
+
+.custom-form-style-1 select option {
+    color: #a9a9a9
+}
+
+.custom-form-style-1 select option[selected] {
+    color: #a9a9a9
+}
+
+.custom-form-style-1 textarea.form-control {
+    height: auto
+}
+
+.coregistration-wrapper {
+    background-color: #f9f9f9;
+}
+
+.coregistration-image {
+    text-align: center;
+}
+
+.coregistration-image img {
+    max-width: 350px;
+    width: 100%;
+}
+
+.offwall-section {
+    padding: 80px 0;
+}
+
+.offwall-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    height: calc(100% - 24px);
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.offwall-card-image {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.offwall-card-image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.offwall-card-description {
+    margin-bottom: 24px;
+}
+
+@media (max-width: 991px) {
+    .offwall-section {
+        padding: 60px 0;
+    }
+}
+
+@media (max-width:767px) {
+    .offwall-section {
+        padding: 50px 0;
+    }
+}
